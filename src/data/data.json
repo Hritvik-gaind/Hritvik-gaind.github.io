@@ -1,0 +1,268 @@
+{
+	"header": { "title": "Hritvik Gaind" },
+	"about": {
+		"title": "About Me",
+		"paragraphs": [
+			"Hritvik Gaind",
+			"I am a Data Enthusiast with over 3 years of experience..."
+
+		],
+		"social": [
+			{
+				"name": "linkedin",
+				"link": "https://www.linkedin.com/in/hritvik-gaind/",
+				"icon": "/asset/imgs/linkedin.png",
+				"animatedIcon": "/asset/gifs/linkedin.gif"
+			},
+			{
+				"name": "github",
+				"link": "https://github.com/Hritvik-gaind",
+				"icon": "/asset/imgs/github.png",
+				"animatedIcon": "/asset/gifs/github.gif"
+			},
+			{
+				"name": "email",
+				"link": "mailto:hritvik.gaind@ucalgary.ca?subject = Feedback&body = Message",
+				"icon": "/asset/imgs/gmail.png",
+				"animatedIcon": "/asset/gifs/gmail.gif"
+			},
+			{
+				"name": "resume",
+				"link": "/asset/resume.pdf",
+				"icon": "/asset/imgs/resume_icon.png",
+				"animatedIcon": "/asset/gifs/resume_icon.gif"
+			}
+		]
+	},
+	"skillsContent": {
+		"title": "Skills",
+		"skills": [
+			{
+				"title": "Programming Languages",
+				"items": ["Python", "R","SQL","PySpark","C++"],
+				"icon": "/asset/imgs/programming.png"
+			},
+			{
+				"title": "Data Visualization",
+				"items": ["PowerBI", "Tableau", "Streamlit", "Plotly & Seaborn"],
+				"icon": "/asset/imgs/vis.png"
+			},
+			{
+				"title": "Cloud Services (AWS)",
+				"items": ["EC2", "S3", "Lambda","Postgres","DynamoDB"],
+				"icon": "/asset/imgs/cloud.png"
+			},
+			{
+				"title": "Data Science & AI",
+				"items": ["Machine Learning","Data Analysis","Financial Modelling","Artificial Intelligence"],
+				"icon": "/asset/imgs/dsml.png"
+			},
+			{
+				"title": "Platforms & Tools",
+				"items": ["Databricks","SAS","Trifacta","Microsoft Office (Excel, Word, PowerPoint)"],
+				"icon": "/asset/imgs/dbx.png"
+			},
+			{
+				"title": "Databases & Storage",
+				"items": ["PostgreSQL","MySQL","DynamoDB"],
+				"icon": "/asset/imgs/dbs.png"
+			},
+			{
+				"title": "Dev & Workflow",
+				"items": ["Git", "VS Code", "RStudio","Jupyter Notebook"],
+				"icon": "/asset/imgs/vs.png"
+			},
+			{
+				"title": "Soft Skills",
+				"items": [
+					"Stakeholder Management",
+					"Data Storytelling",
+					"Analytical Problem Solving",
+					"Project Management",
+					"Team Player"
+				],
+				"icon": "/asset/imgs/soft.png"
+			}
+		]
+	},
+	"educationContent": {
+		"title": "Education",
+		"degrees": [{"degree": "Masters of Data Science and Analytics",
+				"institution": "University of Calgary, Canada",
+				"description": [
+					"GPA: 3.92/4.0",
+					"Relevant Courses : Developing Big Data Applications, Actionable Visualisation and Analytics, Statistical & Machine Learning, Working with Data at Scale"
+				],
+				"year": "2024 - Present ",
+				"imgs": {
+					"graduation": "/asset/imgs/last_class.jpeg",
+					"amirkabir_icon": "/asset/imgs/ucal_logo.png"
+				}
+			},
+			
+			{
+				"degree": "Bachelors of Technology (ECE)",
+				"institution": "Jaypee Institute of Information Technology, India",
+				"description": [
+					"GPA: 3.52/4.0 (8.8/10)",
+					"Relevant Courses : Probability and Random Processes, Data Structures and Algorithms"
+				],
+				"year": "2018-2022",
+				"imgs": {
+					"graduation": "/asset/imgs/farewell.jpg",
+					"amirkabir_icon": "/asset/imgs/logo_jiit.png"
+				}
+			}
+		]	
+	},
+	"workExperienceContent": {
+		"title": "Work Experience",
+		"jobs": [
+			{
+				"position": "Senior Data Analyst",
+				"company": "Deloitte",
+				"year": "2023-2024",
+				"desc": [
+					"Transitioned analytics from SAS to PySpark, cutting costs by 50% and boosting processing efficiency.",
+					"Led a team of 10+ professionals, ensuring on-time deliverables in high-pressure environments.",
+					"Developed interactive Tableau dashboards to track key metrics, enhancing data-driven decision-making.",
+					"Optimized project budgets and timelines, reducing costs by 15% while improving client satisfaction."
+				],
+				"icon": "/asset/imgs/deloitte1.png",
+				"url": "https://www2.deloitte.com/ui/en.html"
+			},
+			{
+				"position": "Data Analyst",
+				"company": "Deloitte",
+				"year": "2022-2023",
+				"desc": [
+					"Drove 100% client satisfaction by delivering data insights aligned with business goals through stakeholder collaboration.",
+					"Boosted fraud detection efficiency by 50% by developing automated Python and SQL data pipelines.",
+					"Digitized risk assessments for Fortune 500 firms, cutting manual effort by 50% while expanding scope.",
+					"Earned three spot awards for consistently delivering high-quality results under tight deadlines in fast-paced environments."
+				],
+				"icon": "/asset/imgs/deloitte1.png",
+				"url": "https://www2.deloitte.com/ui/en.html"
+			},
+			{
+				"position": "Data Science Intern",
+				"company": "Centre for Railway Informations Systems",
+				"year": "May 2021 - Aug 2021",
+				"desc": [
+					"Built an automated GST reconciliation system using Python, resolving GSTR-1 & GSTR-2A mismatches with Fuzzy Wuzzy and Gestalt algorithms.",
+					"Enhanced GST claim accuracy by implementing advanced string-matching and attribute similarity checks, reducing reporting errors.",
+					"Streamlined tax compliance by automating manual reconciliation, improving efficiency and minimizing discrepancies in financial data."
+
+				],
+				"icon": "/asset/imgs/cris.png",
+				"url": "https://cris.org.in/"
+			}
+		]
+	},
+	"projectsContent": {
+		"title": "Projects",
+		"projects": [
+			{
+				"title": "Weather Data Pipeline Automation",
+				"description": "AWS-powered weather data processor",
+				"sub_description": [
+					"Automates API-to-DynamoDB/S3 weather data flows with Lambda, EC2, and Streamlit visualization"
+				],
+				"keywords": ["RestAPI", "DynamoDB", "Lambda","S3","EC2","Streamlit"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/weather-prediction"
+				},
+				"imgs": [
+					"/asset/imgs/weather.png"
+				]
+			},
+			{
+				"title": "Obesity Level Classifier",
+				"description": "Seven-tier obesity classification system",
+				"sub_description": [
+					"Analyzes 17 lifestyle factors across Latin American populations using tree-based models"
+				],
+				"keywords": ["Python", "XGBoost","Tree based Models"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/Estimation-of-Obesity-levels-based-on-lifestyle-and-dietary-patterns"
+				},
+				"imgs": [
+					"/asset/imgs/obesity.png"
+				]
+			},
+			
+			{
+				"title": "DATA SCIENCE JOB TRENDS",
+				"description": "Global salary and role trends uncovered",
+				"sub_description": [
+					"Comparing compensation across experience levels, locations, and company sizes worldwide"
+				],
+				"keywords": ["Data Analytics", "Python", "Seaborn"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/Data-Science-Job-Trends"
+				},
+				"imgs": [
+					"/asset/imgs/ds.png"
+				]
+			},
+			{
+				"title": "Movie Recommender System",
+				"description": "Personalized film suggestions using AI",
+				"sub_description": [
+					"Leverages demographic, content-based, and collaborative filtering for tailored recommendations"
+				],
+				"keywords": ["Recommendation Systems", "Python"],
+				"links": { "github": "https://github.com/Hritvik-gaind/MovieRecommenderSystem" },
+				"imgs": ["/asset/imgs/movie.png"]
+			},
+			{
+				"title": "Human Activity Recognition using Smartphones",
+				"description": "Multi-model activity classification from sensor data",
+				"sub_description": ["Uses smartphone sensors and machine learning to identify 6 daily activities"],
+				"keywords": ["HAR", "Python","KNN","SVM"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/Human-Activity-Recognition-Using-Smartphones"
+				},
+				"imgs": ["/asset/imgs/har.png"]
+			},
+			{
+				"title": "Real Estate Price Analytics",
+				"description": "Statistical modeling of housing market drivers",
+				"sub_description": [
+					"Uses hypothesis testing and multi-linear regression to identify key price influencers"
+				],
+				"keywords": ["R", "ggplot", "mosaic","corrplot"],
+				"links": { "github": "https://github.com/Hritvik-gaind/Analysis-of-House-Pricing" },
+				"imgs": ["/asset/imgs/house.png"]
+			},
+			{
+				"title": "Global Emissions Impact Analyzer",
+				"description": "Tracking CO₂ and GHG worldwide",
+				"sub_description": [
+					"Evaluates policy effectiveness, sectoral contributions, and health correlations"
+				],
+				"keywords": ["Python", "MySQL", "Databases"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/Global-Impact-of-CO2-and-Greenhouse-Gas-Emissions"
+				},
+				"imgs": ["/asset/imgs/co2.png"]
+			},
+			{
+				"title": "Canadian Freight Revenue Optimizer",
+				"description": "AI-driven freight revenue insights",
+				"sub_description": [
+					"Analyzes shipment patterns using MLR to maximize Canada's transport efficiency"
+				],
+				"keywords": ["R", "dplyr","olsrr","Ggally"],
+				"links": {
+					"github": "https://github.com/Hritvik-gaind/Canadian-Freight-Analysis"
+				},
+				"imgs": ["/asset/imgs/freight.png"]
+			}
+		]
+	},
+	"hobbiesContent": {
+		"title": "Hobbies",
+		"hobbies": ["Reading", "Traveling", "Photography", "Coding"]
+	}
+}
