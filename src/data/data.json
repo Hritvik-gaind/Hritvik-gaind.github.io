@@ -119,27 +119,27 @@
 		"title": "Work Experience",
 		"jobs": [
 			{
+				"position": "Data Scientist - Quantitative Risk Modeling",
+				"company": "CIBC",
+				"year": "May 2025 - Present",
+				"desc": [
+					"Performed CMPM-based performance monitoring to evaluate customer creditworthiness by analyzing scorecard behavior over time using PySpark, SAS, and key performance metrics such as AUROC, PSI, and stability indices, enabling data-driven risk decisions.",
+					"Supported the generation of CMPM reports and integrated model performance outputs into Tableau dashboards, streamlining quarterly executive reporting and reducing manual effort by 40%.",
+					"Collaborated cross-functionally with QRM and Risk Data Solutions teams to standardize data pipelines using ETL processes, enhancing data accuracy and decision-making consistency."
+				],
+				"icon": "/asset/imgs/CIBC.jpg",
+				"url": "https://www.cibc.com/en/personal-banking.html"
+			},
+			{
 				"position": "Senior Data Analyst",
 				"company": "Deloitte",
-				"year": "2023-2024",
+				"year": "Jul 2022 - Jul 2024",
 				"desc": [
 					"Transitioned analytics from SAS to PySpark, cutting costs by 50% and boosting processing efficiency.",
 					"Led a team of 10+ professionals, ensuring on-time deliverables in high-pressure environments.",
-					"Developed interactive Tableau dashboards to track key metrics, enhancing data-driven decision-making.",
-					"Optimized project budgets and timelines, reducing costs by 15% while improving client satisfaction."
-				],
-				"icon": "/asset/imgs/deloitte1.png",
-				"url": "https://www2.deloitte.com/ui/en.html"
-			},
-			{
-				"position": "Data Analyst",
-				"company": "Deloitte",
-				"year": "2022-2023",
-				"desc": [
 					"Drove 100% client satisfaction by delivering data insights aligned with business goals through stakeholder collaboration.",
 					"Boosted fraud detection efficiency by 50% by developing automated Python and SQL data pipelines.",
-					"Digitized risk assessments for Fortune 500 firms, cutting manual effort by 50% while expanding scope.",
-					"Earned three spot awards for consistently delivering high-quality results under tight deadlines in fast-paced environments."
+					"Digitized risk assessments for Fortune 500 firms, cutting manual effort by 50% while expanding scope."
 				],
 				"icon": "/asset/imgs/deloitte1.png",
 				"url": "https://www2.deloitte.com/ui/en.html"
